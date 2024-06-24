@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+body {
+  height: 95vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)),
+    url("../imges/netflix.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+  color: red;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+
+button {
+    padding: 8px 18px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
